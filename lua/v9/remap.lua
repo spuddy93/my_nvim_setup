@@ -23,3 +23,6 @@ set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 -- From Reddit's u/leonasdev
 set('n', '<CR>', 'm`o<Esc>``')
 set('n', '<S-CR>', 'm`O<Esc>``')
+
+-- Map Esc to exit terminal
+set('t', '<Esc>', [[<C-\><C-n>]])
